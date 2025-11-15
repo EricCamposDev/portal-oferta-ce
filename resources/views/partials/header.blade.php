@@ -2,7 +2,7 @@
     <div class="container">
         <!-- Logo -->
         <a class="navbar-brand d-flex align-items-center fw-bold text-decoration-none" href="{{ route('home') }}">
-            <img src="{{ asset('images/logo-wbg-2.png') }}" height="40" alt="Oferta CE" class="logo">
+            <img src="{{ asset('images/logo-wbg-2.png') }}" height="40" alt="Oferta CE" loading="lazy" class="logo">
         </a>
 
         <!-- Mobile Toggle -->
